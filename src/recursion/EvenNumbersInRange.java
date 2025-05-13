@@ -1,6 +1,6 @@
 package recursion;
 
-public class EvenNumbersInARange {
+public class EvenNumbersInRange {
     public static void printEvens(int start, int end) {
         if (start == end) {
             if (start % 2 == 0) {
@@ -20,6 +20,7 @@ public class EvenNumbersInARange {
             printEvens(start - 1, end);
         }
     }
+
     public static void main(String[] args) {
         printEvens(2,0); // Output: 0 2
     }
