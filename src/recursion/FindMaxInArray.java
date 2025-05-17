@@ -2,9 +2,6 @@ package recursion;
 
 public class FindMaxInArray {
     public static int findMax(int[] arr, int n) {
-        if (n - 1 < 0 || n >= arr.length) {
-            return -1;
-        }
         if (n - 1 == 0) {
             return arr[0];
         }
@@ -17,7 +14,7 @@ public class FindMaxInArray {
     }
 
     public static void main(String[] args) {
-        int[] array = { -10, -2, -3, -4, 4 };
+        int[] array = {-10, -2, -3, -4, 4};
         System.out.println(findMax(array, 4));
     }
 }
