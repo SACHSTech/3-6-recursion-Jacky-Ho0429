@@ -12,7 +12,7 @@ public class SumOfArray {
     }
 
     public static void main(String[] args) {
-        int[] array = {1, 2, 3 , 4, 4};
-        System.out.println(sumArray(array, 4));
+        int[] array = {1, 2, 3, 4, 4};
+        System.out.println(sumArray(array, 4)); // Output: 10
     }
 }
